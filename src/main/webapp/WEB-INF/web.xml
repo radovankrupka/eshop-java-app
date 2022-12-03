@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+    <servlet>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>controllers.Home</servlet-class>
+    </servlet>
+
+ <!--   <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>controllers.Register</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>SendOrder</servlet-name>
+        <servlet-class>controllers.SendOrder</servlet-class>
+    </servlet>-->
+
+    
+    <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern>/Home</url-pattern>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+  <!--  <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SendOrder</servlet-name>
+        <url-pattern>/sendorder</url-pattern>
+    </servlet-mapping>-->
+    
+
+
+</web-app>
